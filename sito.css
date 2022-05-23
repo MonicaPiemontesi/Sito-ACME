@@ -1,0 +1,25 @@
+.titoletti{
+  text-align:center
+}
+.paragrafetti{
+  text-align:left;
+  margin-left:50px
+}
+.paragrafo2{
+  font-size:14pt;
+  margin-left:50px
+}
+#creatività{
+  text-align:center
+}
+#welcome{
+  text-align:center
+}
+.cerchio{
+  margin-left:150px
+}
+#ACME{
+  font-size:10pt;
+  margin-top:10px;
+  margin-left:400px
+}
