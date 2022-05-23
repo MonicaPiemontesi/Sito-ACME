@@ -3,31 +3,30 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-  margin: 0px;
 } 
 .titoletti{
   text-align:center;
-  font-family:Lato;
+  font-family:Clarendon;
 }
 .paragrafetti{
   text-align:left;
-  margin-left:50px
+  margin-left:50px;
 }
 .paragrafo2{
   font-size:14pt;
-  margin-left:50px
+  margin-left:50px;
 }
 #creatività{
-  text-align:center
+  text-align:center;
 }
 #welcome{
-  text-align:center
+  text-align:center;
 }
 .cerchio{
-  margin-left:150px
+  margin-left:150px;
 }
 #ACME{
   font-size:10pt;
   margin-top:10px;
-  margin-left:400px
+  margin-left:400px;
 }
