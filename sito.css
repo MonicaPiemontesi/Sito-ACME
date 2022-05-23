@@ -4,14 +4,14 @@
   background-attachment: fixed;
   background-size: 100%;
 } 
-#italia{
+.italia{
   width: 41px;
   height: 27px;
   margin-left: 150px;
-  margin-top: 15px;
 }
 #ACME{
   font-size:10pt;
+  margin-top:10px
   margin-left:400px;
 }
 .titoletti{
