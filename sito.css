@@ -1,3 +1,10 @@
+.background{
+  background-image: url("http://www.fabioviale.it/wp-content/uploads/2019/06/Souvenir_David-e1561035284963.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0px;
+} 
 .titoletti{
   text-align:center
 }
