@@ -10,6 +10,10 @@
   margin-left: 150px;
   margin-top: 15px;
 }
+#ACME{
+  font-size:10pt;
+  margin-left:400px;
+}
 .titoletti{
   text-align:center;
   font-family:Arial;
@@ -32,8 +36,4 @@
 .cerchio{
   margin-left:150px;
 }
-#ACME{
-  font-size:10pt;
-  margin-top:10px;
-  margin-left:400px;
-}
+
