@@ -3,7 +3,11 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-} 
+}
+.bandiere{
+  width: 41px;
+  height: 27px;
+}
 #italia{
   width: 41px;
   height: 27px;
