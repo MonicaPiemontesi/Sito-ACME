@@ -6,7 +6,8 @@
   margin: 0px;
 } 
 .titoletti{
-  text-align:center
+  text-align:center;
+  font-family:Merriweather;
 }
 .paragrafetti{
   text-align:left;
