@@ -4,27 +4,25 @@
   background-attachment: fixed;
   background-size: 100%;
 }
-.bandiere{
-  width: 41px;
-  height: 27px;
-}
+
 #italia{
   width: 41px;
   height: 27px;
-  margin-left: 150px;
-  margin-top:15px;
+  align: right;
+  margin-left: 1450px;
+  margin-top:-100px;
 }
 #UK{
   width: 41px;
   height: 27px;
-  margin-left: 250px;
-  margin-top:15px;
+  margin-left: 20px;
+  margin-top:-100px;
 }
 #Cina{
   width: 41px;
   height: 27px;
-  margin-left: 350px;
-  margin-top:15px;
+  margin-left: 20px;
+  margin-top:-100px;
 }
 .ACME{
   font-size:10pt;
@@ -53,4 +51,3 @@
 .cerchio{
   margin-left:150px;
 }
-
