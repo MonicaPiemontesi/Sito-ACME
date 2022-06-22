@@ -1,4 +1,4 @@
-  //scrolltop
+//scrolltop
 
 function scrollToTop() {
       window.scrollTo(0, 0);
@@ -13,4 +13,3 @@ function scrollToTop() {
       let cookie = document.querySelector('#cookie');
       cookie.style = "display:none;";
     }
-
