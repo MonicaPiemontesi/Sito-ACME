@@ -4,35 +4,109 @@
   background-attachment: fixed;
   background-size: 100%;
 }
-
-#italia{
-  width: 41px;
-  height: 27px;
-  align: right;
-  margin-left: 1250px;
-  margin-top:-100px;
+.banda{
+  position:fixed; 
+  height:80px; 
+  background-color:white; 
+  width:100%; 
+  color:black; 
+  border-bottom:2px solid orange; 
+  opacity:0.9;
 }
-#UK{
-  width: 41px;
-  height: 27px;
-  margin-left: 20px;
-  margin-top:-100px;
-}
-#Cina{
-  width: 41px;
-  height: 27px;
-  margin-left: 20px;
-  margin-top:-100px;
+.logoacme{
+  height:60px; 
+  margin-left:250px; 
+  margin-top:-120px; 
+  cursor:pointer;
 }
 .ACME{
-  font-size:10pt;
-  margin-top:10px;
   margin-left:400px;
+  font-size:30pt;
+  margin-top:10px;
+  font-family:Secular One;
+}
+#top{
+  border:1px solid orange; 
+  position:fixed; 
+  bottom:10px; 
+  right:10px; 
+  width:40px; 
+  background-color:black; 
+  border-radius:100%; 
+  color:white; 
+  width:50px; 
+  height:50px; 
+  text-align:center;
+  cursor:pointer;
+}
+#box1{
+  border:1px solid white; 
+  max-width: 1200px; 
+  margin: auto; 
+  color:white; 
+  border-radius:20px; 
+  text:center;
+}
+#box2{
+  border:1px solid white; 
+  max-width: 1200px; 
+  margin:auto; 
+  background-color: orange; 
+  color: dark; 
+  border-radius:20px;
+}
+#box3{
+  border:1px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:20px
+}
+#box4{
+  margin:auto;
+  border:2px solid white; 
+  background-color:#212121; 
+  color:white; 
+  border-radius:20px;
+}
+#box5{
+  border:1px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:20px;
+}
+#box6{
+  border:1px solid white; 
+  pattern:; 
+  color:white; 
+  border-radius:20px;
+}
+#box7{
+  border:1px solid white; 
+  background-color:#3E2723; 
+  color:white; 
+  border-radius:20px;
+}
+#box8{
+  border:1px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:20px
+}
+#box9{
+  border:1px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:20px
 }
 .titoletti{
   text-align:center;
-  font-family:Arial;
+  font-family:Secular One;
   font-style:Bold;
+}
+.paragrafo1{
+  text-align:center;
+  font-size:14pt;
+  font-style:italic;
 }
 .paragrafetti{
   text-align:left;
@@ -47,7 +121,145 @@
 }
 #welcome{
   text-align:center;
+  color:orange;
+  margin-top:5px;
+  font-family:Secular One;
+}
+#offerta{
+  text-align:center;
+  color:#D4E157;
+  margin-top:5px;
+  font-family:Secular One;
 }
 .cerchio{
+  border:1px solid orange; 
+  width:100px; 
+  height:100px; 
+  background-color:black; 
+  border-radius: 100%;
   margin-left:150px;
+}
+.dipartimento{
+  text-align:center;
+  background-color:orange;
+  margin-left:60px;
+  color:#212121;
+  border:4px solid white; 
+  height:60px; 
+  width:1160px;
+  font-family:Secular One;
+}
+.titolini{
+ text-align:center;
+}
+.sezioni{
+  text-align:left;
+  margin-left:30px;
+  margin-top:10px;
+  text-decoration-line:underline;
+  cursor:pointer;
+  margin-top:5px;
+  font-family:Secular One;
+}
+.sezioni2{
+  text-align:left;
+  margin-left:30px;
+  font-style:italic;
+  font-family:Secular One;
+}
+.sezioni3{
+  text-align:left;
+  margin-left:30px;
+  color:#FFD180;
+  cursor:pointer;
+}
+.ret{
+  border:3px solid white; 
+  height:60px; 
+  width:500px;
+  margin:auto;
+}
+#ret1{
+  margin-left:300px;
+  border:2px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:10px;
+}
+#ret2{
+  border:2px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:10px;
+}
+#ret3{
+  margin:auto;
+  border:2px solid white; 
+  background-color:black; 
+  color:white; 
+  border-radius:10px;
+  ;width:620px
+}
+.ret4{
+  border:3px solid white; 
+  width:500px;
+}
+#durata{
+  text-align:center;
+  color:orange;
+  margin-top:5px;
+  font-family:Secular One;
+}
+.paragrafo3{
+  margin-left:30px;
+}
+#bottoncinocookie {
+  position: fixed;
+  bottom: 125px;
+  left: 120px;
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+}
+#contatti{
+  margin-left:30px;
+}
+#numero{
+  margin-left:30px;
+  color:#FFF176;
+}
+#cookie {
+  color: white;
+  font-size: 10px;
+  background-color: hsl(0, 0%, 6%);
+  padding: 15px;
+  cursor:pointer;
+}
+#perchiudere {
+  font-size: 15px;
+  margin-left: 200px;
+}
+#popup {
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  bottom: 10px;
+  left: 10px;
+  position: fixed;
+  text-align: center;
+  border-radius: 90px;
+  color: white;
+  display: block;
+  padding: 1px 15px 15px 15px;
+  border: 2px solid white;
+  cursor:pointer;
+}
+.footer1 {
+  background-color:#3E2723;
+  color:white;
+  max-width: auto;
+  text-align: center;
+  margin:auto;
+  font-size:15px;
+  height:130px;
 }
