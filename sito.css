@@ -6,7 +6,7 @@
 }
 .banda{
   position:fixed; 
-  height:80px; 
+  height:70px; 
   background-color:white; 
   width:100%; 
   color:black; 
@@ -16,13 +16,13 @@
 .logoacme{
   height:60px; 
   margin-left:250px; 
-  margin-top:-120px; 
+  margin-top:-100px; 
   cursor:pointer;
 }
 .ACME{
   margin-left:400px;
-  font-size:30pt;
-  margin-top:10px;
+  font-size:20pt;
+  margin-top:15px;
   font-family:Secular One;
 }
 #top{
@@ -75,7 +75,8 @@
   border-radius:20px;
 }
 #box6{
-  border:1px solid white; 
+  border:2px solid brown; 
+  background-color:white;
   pattern:; 
   color:white; 
   border-radius:20px;
@@ -141,10 +142,9 @@
 }
 .dipartimento{
   text-align:center;
-  background-color:orange;
   margin-left:60px;
   color:#212121;
-  border:4px solid white; 
+  border:4px solid brown; 
   height:60px; 
   width:1160px;
   font-family:Secular One;
@@ -156,7 +156,6 @@
   text-align:left;
   margin-left:30px;
   margin-top:10px;
-  text-decoration-line:underline;
   cursor:pointer;
   margin-top:5px;
   font-family:Secular One;
