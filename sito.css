@@ -4,11 +4,7 @@
   background-attachment: fixed;
   background-size: 100%;
 }
-#video{
-  frameborder:0;
-  width:560;
-  height:315;
-}
+
 .banda{
   position:fixed; 
   height:70px; 
