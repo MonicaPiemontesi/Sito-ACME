@@ -117,7 +117,7 @@
   font-size:14pt;
   margin-left:50px;
 }
-#creatività{
+.creatività{
   text-align:center;
 }
 #welcome{
@@ -203,7 +203,7 @@
   border:3px solid white; 
   width:500px;
 }
-#durata{
+.durata{
   text-align:center;
   color:orange;
   margin-top:5px;
