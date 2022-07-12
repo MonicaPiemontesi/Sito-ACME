@@ -214,11 +214,12 @@
   border:3px solid white; 
   max-width:auto;
 }
-#durata{
+.durata{
   text-align:center;
   color:orange;
   margin-top:5px;
   font-family:Secular One;
+
 }
 .paragrafo3{
   margin:auto;
