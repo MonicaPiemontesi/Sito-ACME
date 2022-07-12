@@ -1,11 +1,9 @@
 .background{
-  background-image: url("background1.jpg");
+  background-image: url("http://www.fabioviale.it/wp-content/uploads/2019/06/Souvenir_David-e1561035284963.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
-
 .banda{
   position:fixed; 
   height:70px; 
@@ -15,16 +13,18 @@
   border-bottom:2px solid orange; 
   opacity:0.9;
 }
-#logoacme{
+.logoacme{
   height:60px; 
-  margin-left:250px; 
-  margin-top:-100px; 
+  margin-left:200px;
+  margin-top:5px; 
   cursor:pointer;
+  max-width:auto;
 }
 .ACME{
-  margin-left:400px;
+  margin-left:600px;
   font-size:20pt;
-  margin-top:15px;
+  margin-top:-45px;
+  max-width:auto;
   font-family:Secular One;
 }
 #top{
@@ -33,7 +33,7 @@
   bottom:10px; 
   right:10px; 
   width:40px; 
-  background-color:black; 
+  background-color:white; 
   border-radius:100%; 
   color:white; 
   width:50px; 
@@ -43,7 +43,7 @@
 }
 #box1{
   border:1px solid white; 
-  max-width: 1200px; 
+  max-width: auto; 
   margin: auto; 
   color:white; 
   border-radius:20px; 
@@ -51,7 +51,7 @@
 }
 #box2{
   border:1px solid white; 
-  max-width: 1200px; 
+  max-width: auto; 
   margin:auto; 
   background-color: orange; 
   color: dark; 
@@ -69,17 +69,20 @@
   background-color:#212121; 
   color:white; 
   border-radius:20px;
+  max-width:auto;
 }
 #box5{
   border:1px solid white; 
   background-color:black; 
   color:white; 
   border-radius:20px;
+  margin:auto;
+  max-width:auto
 }
 #box6{
   border:2px solid brown; 
   background-color:white;
-  pattern:; 
+  max-width:auto;
   color:white; 
   border-radius:20px;
 }
@@ -105,6 +108,7 @@
   text-align:center;
   font-family:Secular One;
   font-style:Bold;
+  cursor:pointer;
 }
 .paragrafo1{
   text-align:center;
@@ -112,12 +116,12 @@
   font-style:italic;
 }
 .paragrafetti{
-  text-align:left;
-  margin-left:50px;
+  text-align:center;
+  max-width:auto;
 }
 .paragrafo2{
   font-size:14pt;
-  margin-left:50px;
+  margin-left:40px;
 }
 .creatività{
   text-align:center;
@@ -126,6 +130,7 @@
   text-align:center;
   color:orange;
   margin-top:5px;
+  margin:auto;
   font-family:Secular One;
 }
 #offerta{
@@ -135,20 +140,24 @@
   font-family:Secular One;
 }
 .cerchio{
-  border:1px solid orange; 
-  width:100px; 
-  height:100px; 
-  background-color:black; 
+  border:2px solid white; 
+  width:150px; 
+  height:150px; 
+  background-color:orange; 
   border-radius: 100%;
-  margin-left:150px;
+  margin:auto;
+}
+.icon{
+  margin-left:25px;
+  margin-top:12px;
 }
 .dipartimento{
   text-align:center;
-  margin-left:60px;
+  margin:auto;
   color:#212121;
   border:4px solid brown; 
-  height:60px; 
-  width:1160px;
+  height:auto; 
+  max-width:auto;
   font-family:Secular One;
 }
 .titolini{
@@ -177,11 +186,11 @@
 .ret{
   border:3px solid white; 
   height:60px; 
-  width:500px;
+  max-width:auto;
   margin:auto;
 }
 #ret1{
-  margin-left:300px;
+  margin:auto;
   border:2px solid white; 
   background-color:black; 
   color:white; 
@@ -199,20 +208,21 @@
   background-color:black; 
   color:white; 
   border-radius:10px;
-  ;width:620px
+  max-width:auto;
 }
 .ret4{
   border:3px solid white; 
-  width:500px;
+  max-width:auto;
 }
-.durata{
+#durata{
   text-align:center;
   color:orange;
   margin-top:5px;
   font-family:Secular One;
 }
 .paragrafo3{
-  margin-left:30px;
+  margin:auto;
+  max-width:auto;
 }
 #bottoncinocookie {
   position: fixed;
@@ -230,11 +240,12 @@
   color:#FFF176;
 }
 #cookie {
-  color: white;
+  color: black;
   font-size: 10px;
-  background-color: hsl(0, 0%, 6%);
+  background-color: #E0E0E0;
   padding: 15px;
   cursor:pointer;
+  border-radius:40px 40px 40px 0px;
 }
 #perchiudere {
   font-size: 15px;
@@ -242,12 +253,11 @@
 }
 #popup {
   background-color:orange;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   bottom: 10px;
   left: 10px;
   position: fixed;
-  text-align: center;
   border-radius: 90px;
   color: white;
   display: block;
