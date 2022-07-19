@@ -231,6 +231,7 @@
   background-color:#3E2723; 
   color:white; 
   border-radius:10px;
+  max-width:auto;
 }
 #ret2{
   margin:auto;
