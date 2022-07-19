@@ -212,7 +212,8 @@
 }
 .sezioni3{
   text-align:left;
-  margin-left:30px;
+  margin:auto;
+  max-width:auto;
   color:#FFD180;
   cursor:pointer;
   font-family: Trebuchet MS, sans-serif;
