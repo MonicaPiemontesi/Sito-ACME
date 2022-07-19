@@ -30,14 +30,14 @@
 #top{
   border:1px solid orange; 
   position:fixed; 
-  bottom:10px; 
-  right:10px; 
+  bottom:200px; 
+  right:20px; 
   width:40px; 
   background-color:white; 
   border-radius:100%; 
   color:white; 
-  width:50px; 
-  height:50px; 
+  width:70px; 
+  height:70px; 
   text-align:center;
   cursor:pointer;
 }
@@ -48,6 +48,8 @@
   color:white; 
   border-radius:20px; 
   text:center;
+  font-family: Trebuchet MS, sans-serif;
+
 }
 #box2{
   border:1px solid white; 
@@ -56,12 +58,15 @@
   background-color: orange; 
   color: dark; 
   border-radius:20px;
+  font-family: Trebuchet MS, sans-serif;
+
 }
 #box3{
   border:1px solid white; 
   background-color:black; 
   color:white; 
-  border-radius:20px
+  border-radius:20px;
+  font-family: Trebuchet MS, sans-serif;
 }
 #box4{
   margin:auto;
@@ -70,39 +75,44 @@
   color:white; 
   border-radius:20px;
   max-width:auto;
+  font-family: Trebuchet MS, sans-serif;
 }
 #box5{
   border:1px solid white; 
   background-color:black; 
   color:white; 
-  border-radius:20px;
+  border-radius:20px 20px 0px 0px;
   margin:auto;
-  max-width:auto
+  max-width:auto;
+  font-family: Trebuchet MS, sans-serif;
 }
 #box6{
-  border:2px solid brown; 
-  background-color:white;
+  border:1px solid white; 
+  background-color:#3E2723;
   max-width:auto;
   color:white; 
-  border-radius:20px;
+  border-radius:0px 0px 20px 20px;
+  font-family: Trebuchet MS, sans-serif;
 }
 #box7{
+  border:2px solid white; 
+  background-color:#FFAB00;
+  border-radius:20px;
+  font-family: Trebuchet MS, sans-serif;
+}
+#box8{
   border:1px solid white; 
   background-color:#3E2723; 
   color:white; 
   border-radius:20px;
-}
-#box8{
-  border:1px solid white; 
-  background-color:black; 
-  color:white; 
-  border-radius:20px
+  font-family: Trebuchet MS, sans-serif;
 }
 #box9{
-  border:1px solid white; 
+  border:2px solid white; 
   background-color:black; 
   color:white; 
-  border-radius:20px
+  border-radius:20px;
+  font-family: Trebuchet MS, sans-serif;
 }
 .titoletti{
   text-align:center;
@@ -139,23 +149,41 @@
   margin-top:5px;
   font-family:Secular One;
 }
-.cerchio{
+#cerchio1{
   border:2px solid white; 
   width:150px; 
   height:150px; 
   background-color:orange; 
-  border-radius: 100%;
+  border-radius:40px 40px 0px 40px;
+  margin:auto;
+}
+#cerchio2{
+  border:2px solid white; 
+  width:150px; 
+  height:150px; 
+  background-color:orange; 
+  border-radius: 40px 40px 0px 0px;
+  margin:auto;
+}
+#cerchio3{
+  border:2px solid white; 
+  width:150px; 
+  height:150px; 
+  background-color:orange; 
+  border-radius: 40px 40px 40px 0px;
   margin:auto;
 }
 .icon{
   margin-left:25px;
-  margin-top:12px;
+  margin-top:15px;
 }
 .dipartimento{
   text-align:center;
   margin:auto;
   color:#212121;
-  border:4px solid brown; 
+  border:2px;
+  border-radius:40px 40px 0px 40px;
+  background-color:#E0E0E0;
   height:auto; 
   max-width:auto;
   font-family:Secular One;
@@ -182,30 +210,36 @@
   margin-left:30px;
   color:#FFD180;
   cursor:pointer;
+  font-family: Trebuchet MS, sans-serif;
+  font-size:15pt;
 }
 .ret{
   border:3px solid white; 
+  border-radius:40px 40px 0px 40px;
   height:60px; 
   max-width:auto;
   margin:auto;
+  
 }
 #ret1{
   margin:auto;
   border:2px solid white; 
-  background-color:black; 
+  background-color:#3E2723; 
   color:white; 
   border-radius:10px;
+  max-width:auto;
 }
 #ret2{
   border:2px solid white; 
-  background-color:black; 
+  background-color:#3E2723; 
   color:white; 
   border-radius:10px;
+  max-width:auto;
 }
 #ret3{
   margin:auto;
   border:2px solid white; 
-  background-color:black; 
+  background-color:#3E2723; 
   color:white; 
   border-radius:10px;
   max-width:auto;
@@ -213,13 +247,25 @@
 .ret4{
   border:3px solid white; 
   max-width:auto;
+  border-radius:40px 40px 0px 40px;
 }
-.durata{
+#durata{
+  text-align:center;
+  color:black;
+  margin-top:5px;
+  font-family:Secular One;
+}
+#borse{
   text-align:center;
   color:orange;
   margin-top:5px;
   font-family:Secular One;
-
+}
+#sede{
+  text-align:center;
+  color:orange;
+  margin-top:5px;
+  font-family:Secular One;
 }
 .paragrafo3{
   margin:auto;
@@ -235,14 +281,11 @@
 }
 #contatti{
   margin-left:30px;
+  font-family: Trebuchet MS, sans-serif;
 }
 #numero{
   margin-left:30px;
   color:#FFF176;
-}
-#video{
-  width:360px;
-  height:315px;
 }
 #cookie {
   color: black;
@@ -250,7 +293,8 @@
   background-color: #E0E0E0;
   padding: 15px;
   cursor:pointer;
-  border-radius:40px 40px 40px 0px;
+  border-radius:40px 40px 40px 0px; 
+  font-family: Trebuchet MS, sans-serif;
 }
 #perchiudere {
   font-size: 15px;
@@ -270,12 +314,40 @@
   border: 2px solid white;
   cursor:pointer;
 }
+#social{
+  height: 180px;
+  width: 90px;
+  position: fixed;
+  color: white;
+  display: block;
+  border-radius:40px 40px 0px 40px;
+  padding: 1px 15px 15px 15px;
+  border: 2px solid brown;
+  cursor:pointer;
+  bottom:10px; 
+  right:10px; 
+}
+.social{
+  width:40px;
+  height:40px;
+  margin-left:10px;
+  margin-top:12px;
+  border-radius:90px;
+  
+}
+#yt{
+  width:60px;
+  height:60px;
+  margin-left:px;
+  margin-top:10px;
+}
 .footer1 {
-  background-color:#3E2723;
-  color:white;
+  background-color:orange;
+  color:black;
   max-width: auto;
   text-align: center;
   margin:auto;
   font-size:15px;
   height:130px;
+  font-family: Trebuchet MS, sans-serif;
 }
