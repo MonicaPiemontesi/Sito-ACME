@@ -7,7 +7,7 @@
 }
 .banda{
   position:fixed; 
-  height:70px; 
+  height:auto;
   background-color:white; 
   width:100%; 
   color:black; 
@@ -220,7 +220,6 @@
 .ret{
   border:3px solid white; 
   border-radius:40px 40px 0px 40px;
-  height:60px; 
   max-width:auto;
   margin:auto;
   
@@ -298,6 +297,8 @@
   cursor:pointer;
   border-radius:40px 40px 40px 0px; 
   font-family: Trebuchet MS, sans-serif;
+  max-width:auto;
+  margin:auto;
 }
 #perchiudere {
   font-size: 15px;
