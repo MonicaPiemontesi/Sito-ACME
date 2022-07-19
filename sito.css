@@ -10,8 +10,7 @@
 .banda{
   position:fixed; 
   height:70px; 
-  background-color:white; 
-  max-width:auto; 
+  background-color:white;  
   color:black; 
   border-bottom:2px solid orange; 
   opacity:0.9;
