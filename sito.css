@@ -210,10 +210,9 @@
   font-style:italic;
   font-family:Secular One;
 }
-.sezioni3{
+ .sezioni3{
   text-align:left;
-  margin:auto;
-  max-width:auto;
+  margin-left:30px;
   color:#FFD180;
   cursor:pointer;
   font-family: Trebuchet MS, sans-serif;
