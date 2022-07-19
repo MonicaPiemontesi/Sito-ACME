@@ -21,6 +21,12 @@
   max-width:auto;
   font-family:Secular One;
 }
+#logo{
+  min-width: 300px;
+  max-width: 500px;
+  margin:auto;
+  text-align: center
+}
 .logoacme{
   max-width:100px; 
   margin:auto;
