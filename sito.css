@@ -21,19 +21,13 @@
   max-width:auto;
   font-family:Secular One;
 }
-#logo{
-  border:2px solid white; 
-  max-width:100px; 
-  height:200px; 
-  background-color:white; 
-  border-radius:0px 40px 40px 40px;
-  margin:auto
-}
 .logoacme{
+  max-width:100px; 
   margin:auto;
   cursor:pointer;
   max-width:120px;
   float:center;
+  border-radius:0px 40px 40px 40px;
 }
 #top{
   border:1px solid orange; 
