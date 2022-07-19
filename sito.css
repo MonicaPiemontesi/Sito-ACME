@@ -7,26 +7,34 @@
 }
 .banda{
   position:fixed; 
-  height:auto;
+  height:auto; 
   background-color:white; 
   width:100%; 
   color:black; 
   border-bottom:2px solid orange; 
   opacity:0.9;
 }
-.logoacme{
-  height:60px; 
-  margin-left:200px;
-  margin-top:auto; 
-  cursor:pointer;
-  max-width:auto;
-}
 .ACME{
   margin-left:600px;
   font-size:20pt;
-  margin-top:-45px;
+  margin-top:30px;
   max-width:auto;
   font-family:Secular One;
+}
+#logo{
+  border:2px solid white; 
+  width:600px; 
+  height:200px; 
+  background-color:white; 
+  border-radius:0px 40px 40px 40px;
+  margin:auto
+}
+.logoacme{
+  height:150px; 
+  margin-left:140px;
+  margin-top:10px; 
+  cursor:pointer;
+  max-width:auto;
 }
 #top{
   border:1px solid orange; 
