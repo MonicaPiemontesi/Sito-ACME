@@ -23,7 +23,7 @@
 }
 #logo{
   border:2px solid white; 
-  max-width:auto; 
+  max-width:100px; 
   height:200px; 
   background-color:white; 
   border-radius:0px 40px 40px 40px;
@@ -32,7 +32,7 @@
 .logoacme{
   margin:auto;
   cursor:pointer;
-  max-width:auto;
+  max-width:120px;
 }
 #top{
   border:1px solid orange; 
