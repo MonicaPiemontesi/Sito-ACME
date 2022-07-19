@@ -11,10 +11,11 @@
   position:fixed; 
   height:70px; 
   background-color:white; 
-  width:100%; 
+  max-width:auto; 
   color:black; 
   border-bottom:2px solid orange; 
   opacity:0.9;
+  margin:auto;
 }
 .logoacme{
   height:60px; 
@@ -233,14 +234,13 @@
   background-color:#3E2723; 
   color:white; 
   border-radius:10px;
-  max-width:auto;
 }
 #ret2{
+  margin:auto;
   border:2px solid white; 
   background-color:#3E2723; 
   color:white; 
   border-radius:10px;
-  max-width:auto;
 }
 #ret3{
   margin:auto;
@@ -248,7 +248,7 @@
   background-color:#3E2723; 
   color:white; 
   border-radius:10px;
-  max-width:auto;
+
 }
 .ret4{
   border:3px solid white; 
