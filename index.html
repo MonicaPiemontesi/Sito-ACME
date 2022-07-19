@@ -22,10 +22,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Patua+One&family=Secular+One&display=swap" rel="stylesheet">
  
 </head>
-
 <body class="background">
   <div class="banda"> 
-   <img src="https://moodleno.aba-acme.it/pluginfile.php/1/core_admin/logo/0x150/1636794681/Logo.jpg" class="logoacme" alt="logoacme"> 
+   <img src="https://moodleno.aba-acme.it/pluginfile.php/1/core_admin/logo/0x150/1636794681/Logo.jpg" class="logoacme"> 
     <h1 class="ACME"><b>ACME</b> ACCADEMIA DI BELLE ARTI</h1>
     
      
@@ -35,7 +34,7 @@
 <div id="mainBody">
   
  <div id="top" onclick="scrollToTop();">
-   <svg viewBox="0 0 512 512">
+   <svg viewBox="0 0 512 512" title="chevron-circle-up">
   <path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z" />
 </svg>
   </div>
@@ -58,7 +57,7 @@
    </div>
   <br>
     <div id="box2">
-    <h1 class="titoletti">OPEN DAY INTERATTIVO</h1>
+   <a href="http://www.acmenovara.it/acme-open-day.html"><h1 class="titoletti">OPEN DAY INTERATTIVO</h1></a>
     <p class="paragrafo1">Clicca qui per iscriverti alla presentazione online</p>
     </div>
     
@@ -67,42 +66,43 @@
     <div class="row">
       <div class="col-sm-4">
         <br>
-        <div class="cerchio">
-          <svg class="icon" viewBox="0 0 448 512" width="95">
+        <div id="cerchio1">
+          <svg class="icon" viewBox="0 0 448 512" width="95" title="book">
   <path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z" />
 </svg>
         </div>
         <br>
-        <h3 class="titoletti">OFFERTA FORMATIVA</h3>
+      <div onclick="OffertaUp()"> <h3 class="titoletti">OFFERTA FORMATIVA</h3>
         <p class="paragrafetti">Una formazione globale per i professionisti in campo  artistico e nella comunicazione per immagini. <br> <ins>(info)</ins></p>
-        
+        </div>
       </div>
       <div class="col-sm-4">
         <br>
-         <div class="cerchio">
-          <svg class="icon" viewBox="0 0 448 512" width="100">
+         <div id="cerchio2">
+          <svg class="icon" viewBox="0 0 448 512" width="100" title="user-graduate">
   <path d="M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z" />
 </svg>
         </div>
         <br>
-        <h3 class="titoletti">DURATA E TITOLI</h3>
+       <div onclick="DurataUp()"> <h3 class="titoletti">DURATA E TITOLI</h3>
         <p class="paragrafetti">I corsi di studio prevedono un percorso formativo distinto in più cicli. <br><ins>(info)</ins></p>
       </div>
-      
+      </div>
       <div class="col-sm-4">
         <br>
-       <div class="cerchio">
-         <svg class="icon" viewBox="0 0 512 512" width="100">
+       <div id="cerchio3">
+         <svg class="icon" viewBox="0 0 512 512" width="100" title="university">
   <path d="M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z" />
 </svg>
        </div>
         <br>
-        <h3 class="titoletti">BORSE DI STUDIO</h3> 
+       <div onclick="BorseUp()"> <h3 class="titoletti">BORSE DI STUDIO</h3> 
         <p class="paragrafetti">Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale preposto. <br> <ins>(info)</ins></p>
        </div>
     </div>
   </div>
  </div>
+</div>
     <br>
     
 <div id="box4" class="container mt-5">
@@ -110,18 +110,18 @@
       <div class="col-sm-6">
         <br>
         <br>
-         <h4 class="creatività"> LA CREATIVITÀ È LA TUA PROFESSIONE</h4>
+        <h4 class="creatività"> LA CREATIVITÀ È LA TUA PROFESSIONE</h4>
         <br>
         <br>
         <div class="ret"> 
-        <h1 id="welcome">WELCOME TO ACME</h1></div>
+          <h1 id="welcome">WELCOME TO ACME<h1></div>
            <br>
            <br>
            <p class="paragrafo2">Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello.<br><ins>(info)</ins></p>
           </div>
         <div class="col-sm-3">
           <br>
-            <iframe id="video" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe  src="https://www.youtube.com/embed/-cQk6kK7JVs" id="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; width="360" height="315"></iframe>
           <br>
       </div>
    </div>
@@ -133,18 +133,18 @@
       <div class="col-sm-6">
         <br>
         <br>
-            <h4 class="creatività"> UN'AMPIA OFFERTA ARTISTICA</h4>
+        <h4 class="creatività"> UN'AMPIA OFFERTA ARTISTICA</h4>
         <br>
         <br>
         <div class="ret"> 
-        <h1 id="offerta">OFFERTA FORMATIVA</h1></div>
+          <h1 id="offerta">OFFERTA FORMATIVA<h1></div>
            <br>
            <br>
            <p class="paragrafo2"> 3 dipartimenti, 6 scuole, 12 indirizzi per una moderna e completa formazione nel campo della comunicazione visiva.<br> <ins>(info)</ins></p>
           </div>
         <div class="col-sm-3">
           <br>
-            <img  src="https://i.pinimg.com/564x/70/86/db/7086db9520e75c75a99637b8b42bf5ba.jpg" alt="pittura" width="360px">
+            <img  src="https://i.pinimg.com/564x/70/86/db/7086db9520e75c75a99637b8b42bf5ba.jpg" width="360px"></img>
         </div>
       </div>
       <br>
@@ -155,14 +155,14 @@
       <div class="col-sm-6">
         <br>
         <div class="dipartimento"> 
-         <h1>DIPARTIMENTO: <i>ARTI VISIVE</i></h1>
+          <h1>DIPARTIMENTO: <i>ARTI VISIVE</i><h1>
         </div>
-        <div id="ret1" class="container mt-4">
+        <div id="ret1"class="container mt-7">
     <div class="row">
       <div class="col-sm-6">
         <br>
         <h2 class="sezioni">PITTURA</h2>
-           <h3 class="sezioni2">Indirizzi</h3>
+            <h3 class="sezioni2">Indirizzi</h3>
             <h4 class="sezioni3"><br>• Fumetto e Visual Storytelling<br>• Pittura e Nuove Pratiche Espressive </h4>
       </div>
        <div class="col-sm-6">
@@ -179,7 +179,7 @@
 <div class="dipartimento"> 
   <h1>DIPARTIMENTO: <i>PROGETTAZIONE E ARTI APPLICATE</i></h1>
 </div>
- <div id="ret2" class="container mt-4">
+ <div id="ret2"class="container mt-7">
     <div class="row">
       <div class="col-sm-4">
         <br>
@@ -205,17 +205,15 @@
 <div class="dipartimento"> 
   <h1>DIPARTIMENTO: <i>COMUNICAZIONE E DIDATTICA DELL'ARTE</i></h1>
 </div>
-   <div id="ret3" class="container mt-4">
+   <div id="ret3"class="container mt-7">
     <div class="row">
       <div class="col-sm-10">
         <br>
         <h2 class="sezioni">COMUNICAZIONE E VALORIZZAZIONE DEL PATRIMONIO ARTISTICO CONTEMPORANEO</h2>
            <h3 class="sezioni2">Indirizzi</h3>
             <h4 class="sezioni3"><br>• Gestione, valorizzazione e tutela dei beni culturali</h4>
-        <br>
       </div>
      </div>
-      <br>
     </div>
           <br>
    </div>
@@ -224,7 +222,7 @@
       <div class="col-sm-5">
         <br>
         <div class="ret4">
-         <h1 class="durata">DURATA E TITOLI</h1> 
+          <h1 id="durata">DURATA E TITOLI</h1> 
         </div>
          <br>
           <h3 class="sezioni2">DURATA DEGLI STUDI <br> E TITOLI RILASCIATI</h3>
@@ -241,9 +239,9 @@ Gli insegnamenti di tutti gli indirizzi hanno alcune caratteristiche comuni: <b>
 <br>
 <br>
 Successivamente al conseguimento del titolo di studio di secondo livello, i corsi di perfezionamento (dottorato di ricerca e master) concludono il percorso scolastico. </p>
-   <br>  
-      <br>
+   
   </div>
+  <br>
   </div>    
  
 <div id="box9" class="container mt-5">
@@ -251,7 +249,7 @@ Successivamente al conseguimento del titolo di studio di secondo livello, i cors
     <div class="row">
       <div class="col-sm-5">
         <div class="ret4">
-          <h1 class="durata">BORSE DI STUDIO</h1> 
+          <h1 id="borse">BORSE DI STUDIO</h1> 
         </div>
          <br>
           <h3 class="sezioni2">BORSE DI STUDIO ED ALTRE PROVVIDENZE</h3>
@@ -260,23 +258,31 @@ Successivamente al conseguimento del titolo di studio di secondo livello, i cors
 <br>
 <br>
              Per maggiori informazioni visitate il sito: <a href="www.edisu.piemonte.it">www.edisu.piemonte.it</a>
+             
   </div>
+  <br>
  </div>
 <br>
   <div id="box8" class="container mt-5">
     <div class="col-sm-5">
         <br>
         <div class="ret4">
-          <h1 class="durata">SEDE E CONTATTI</h1>
+          <h1 id="sede">SEDE E CONTATTI</h1>
         </div>
       <br>
       <h4 id="contatti">La nostra Accademia si trova in <br>Via Costantino Porta 25, Novara.</h4>
        <h5 id="numero"> Puoi chiamarci al numero <i>+390321627101 </i><br> o scriverci a <i>accademia@acmenovara.it</i></h5>
     <br>
     </div>     
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8488164637347!2d8.61369101555709!3d45.452702579100745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2456688117%3A0x165982cede36d96!2sAcme%20-%20Accademia%20di%20Belle%20Arti!5e0!3m2!1sit!2sit!4v1654513960343!5m2!1sit!2sit" width="100%" height="600" style="border:0;" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8488164637347!2d8.61369101555709!3d45.452702579100745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2456688117%3A0x165982cede36d96!2sAcme%20-%20Accademia%20di%20Belle%20Arti!5e0!3m2!1sit!2sit!4v1654513960343!5m2!1sit!2sit" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
  </div>
-      
+ 
+ <div id="social">
+   <a href="https://www.facebook.com/ACMENovaraAccademia"><img src="https://i2.wp.com/www.chefemaitre.com/blog/wp-content/uploads/2016/07/facebook-logo-black-and-white-png-4.png?ssl=1" alt="facebookicon" class="social"></a>   
+   <a href="https://www.instagram.com/acmenovaraaccademia/"><img src="https://www.ilristorantinodajeje.it/wp-content/uploads/2021/02/Instagram-Logo-PNG-HD.png" alt="instagramicon" class="social"></a>
+   <a href="https://www.youtube.com/channel/UC6rDgS0pNWtc_SXxyEH5seg"><img src="https://e7.pngegg.com/pngimages/415/996/png-clipart-youtube-computer-icons-logo-social-media-youtube-angle-text.png" alt="yticon" class="social"></a>
+ </div>
+   
   <div id="bottoncinocookie">
     <div id="cookie" class="col-sm- col-md-4 col-lg-12">
       <b id="perchiudere" onclick="hideCookie()">X</b>
@@ -288,15 +294,15 @@ Successivamente al conseguimento del titolo di studio di secondo livello, i cors
     </div>
     <div id="popup">
       <div id="bottoncino" onclick="showCookie()">
-        <svg viewBox="0 0 512 512">
+        <svg id="popup"viewBox="0 0 512 512" title="cookie-bite">
   <path d="M510.52 255.82c-69.97-.85-126.47-57.69-126.47-127.86-70.17 0-127-56.49-127.86-126.45-27.26-4.14-55.13.3-79.72 12.82l-69.13 35.22a132.221 132.221 0 0 0-57.79 57.81l-35.1 68.88a132.645 132.645 0 0 0-12.82 80.95l12.08 76.27a132.521 132.521 0 0 0 37.16 72.96l54.77 54.76a132.036 132.036 0 0 0 72.71 37.06l76.71 12.15c27.51 4.36 55.7-.11 80.53-12.76l69.13-35.21a132.273 132.273 0 0 0 57.79-57.81l35.1-68.88c12.56-24.64 17.01-52.58 12.91-79.91zM176 368c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm32-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm160 128c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z" />
 </svg>
-        <span class="material-symbols-rounded"></span>
+        <span class="material-symbols-rounded">COOKIE</span>
       </div>
     </div>
   </div>
-
-     
+ </div>
+ 
       <br>
  <footer>
     <div class="footer1">
@@ -308,12 +314,6 @@ Successivamente al conseguimento del titolo di studio di secondo livello, i cors
       </p>
     </div>
   </footer>
-    
-<script>
- function scrollToTop() {
-     window.scrollTo(0, 0);
-  }
-</script>      
 </body>
 
 </html>
