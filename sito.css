@@ -17,7 +17,7 @@
 .logoacme{
   height:60px; 
   margin-left:200px;
-  margin-top:5px; 
+  margin-top:auto; 
   cursor:pointer;
   max-width:auto;
 }
@@ -299,6 +299,7 @@
   font-family: Trebuchet MS, sans-serif;
   max-width:auto;
   margin:auto;
+  height:auto;
 }
 #perchiudere {
   font-size: 15px;
