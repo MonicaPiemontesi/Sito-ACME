@@ -33,6 +33,7 @@
   margin:auto;
   cursor:pointer;
   max-width:120px;
+  float:center;
 }
 #top{
   border:1px solid orange; 
