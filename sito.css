@@ -83,7 +83,7 @@
 #box4{
   margin:auto;
   border:2px solid white; 
-  background-color:#212121; 
+  background-color:#3E2723; 
   color:white; 
   border-radius:20px;
   max-width:auto;
@@ -100,7 +100,7 @@
 }
 #box6{
   border:1px solid white; 
-  background-color:#3E2723;
+  background-color:#212121;
   max-width:auto;
   color:white; 
   border-radius:0px 0px 20px 20px;
@@ -189,14 +189,40 @@
   margin-left:25px;
   margin-top:15px;
 }
-.dipartimento{
+#titolodip{
+  font-family:Secular One;
+  text-align:center;
+}
+#dipartimento1{
+  padding:2px;
+  margin-top:40px;
+  font-size:30pt;
+  text-align:center;
+  color:solid white;
+  border:3px solid orange;
+  border-radius:40px 40px 0px 0px;  
+  height:auto; 
+  max-width:auto;
+  font-family:Secular One;
+}
+#dipartimento2{
   font-size:30pt;
   text-align:center;
   margin:auto;
-  color:#212121;
-  border:2px;
-  border-radius:40px 40px 0px 40px;
-  background-color:#E0E0E0;
+  color:solid white;
+  border:3px solid brown;
+  border-radius:40px 40px 0px 0px;  
+  height:auto; 
+  max-width:auto;
+  font-family:Secular One;
+}
+#dipartimento3{
+  font-size:30pt;
+  text-align:center;
+  margin:auto;
+  color:solid white;
+  border:3px solid WhiteSmoke;
+  border-radius:40px 40px 0px 0px;  
   height:auto; 
   max-width:auto;
   font-family:Secular One;
@@ -215,13 +241,11 @@
 .sezioni2{
   text-align:left;
   margin-left:30px;
-  font-style:italic;
-  font-family:Secular One;
 }
 .sezioni3{
   text-align:left;
   margin-left:30px;
-  color:#FFD180;
+  color:#F5F5DC;
   cursor:pointer;
   font-family: Trebuchet MS, sans-serif;
   font-size:15pt;
@@ -233,27 +257,29 @@
   margin:auto;
   
 }
+#accademia{
+  width:100%;
+  height:auto;
+  padding:2px;
+}
 #ret1{
   margin:auto;
-  border:2px solid white; 
-  background-color:#3E2723; 
+  border:2px solid orange; 
   color:white;
-  border-radius:10px;
+  border-radius:0px 0px 10px 10px;
   max-width:auto;
 }
 #ret2{
   margin:auto;
-  border:2px solid white; 
-  background-color:#3E2723; 
-  color:white; 
-  border-radius:10px;
+  border:2px solid brown; 
+  color:white;
+  border-radius:0px 0px 10px 10px
 }
 #ret3{
   margin:auto;
-  border:2px solid white; 
-  background-color:#3E2723; 
+  border:2px solid WhiteSmoke; 
   color:white; 
-  border-radius:10px;
+  border-radius:0px 0px 10px 10px
 
 }
 .ret4{
