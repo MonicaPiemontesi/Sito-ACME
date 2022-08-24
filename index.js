@@ -25,11 +25,11 @@ function OffertaUp() {
   }
 
   function DurataUp() {
-    window.scrollTo(0, 2800);
+    window.scrollTo(0, 3200);
   }
 
   function BorseUp() {
-    window.scrollTo(0, 3400);
+    window.scrollTo(0, 3600);
   }
 //top
 function scrollToTop() {
