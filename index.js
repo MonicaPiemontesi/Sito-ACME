@@ -29,7 +29,7 @@ function OffertaUp() {
   }
 
   function BorseUp() {
-    window.scrollTo(0, 3700);
+    window.scrollTo(0, 3800);
   }
 //top
 function scrollToTop() {
