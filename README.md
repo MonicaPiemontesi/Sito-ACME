@@ -7,7 +7,7 @@ Il sito è pubblicato al seguente indirizzo: https://sito-acmenovara-progettoesa
 Ogni modifica viene controllata con il <a href="https://github.com/MonicaPiemontesi/Sito-ACME/blob/main/.github/workflows/main.yml">seguente workflow</a>.
 <br>
 <h2>Test Performance</h2>
-<a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub-netlify-boilerplate.netlify.app%2F">PageSpeed Insights</a>
+<a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub-netlify-boilerplate.netlify.app%2F">PageSpeed Insights</a><br>
 <a href="https://gtmetrix.com/reports/github-netlify-boilerplate.netlify.app/6oLETqoh/">GTmetrix</a>
 <h2>Test SEO</h2>
 <a href="https://www.seoptimer.com/github-netlify-boilerplate.netlify.app">Seoptimer</a>
